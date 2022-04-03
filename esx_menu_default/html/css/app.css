@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Secular+One&display=swap');
+
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+::-webkit-scrollbar {
+	background: transparent;
+}
+
+.menu {
+	font-family: 'Lobster', cursive;
+	font-family: 'Secular One', sans-serif;
+	min-width: 400px;
+	max-width: 400px;
+	color: #fff;
+	position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 7px;
+	padding: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.menu.align-left {
+	left: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 40;
+	top: 40;
+}
+
+.menu.align-top {
+	left: 50%;
+	top: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	left: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu .head {
+	background-color: transparent;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 7px;
+	font-size: 25px;
+	border-style: groove;
+	border-color: transparent;
+	border-bottom: solid .1vw #fff;
+	text-shadow: rgba(0, 0, 0, 0.8) 3px 3px;
+	margin: 16.6;
+}
+
+.menu .menu-items {
+	max-height: 600px;
+	overflow-y: auto;
+}
+
+.menu .menu-items .menu-item {
+	height: 40px;
+	display: block;
+	background-color: rgba(102, 101, 101, 0.4);
+	height: 34px;
+	line-height: 32px;
+	border-radius: 7px;
+	border-width: 2.5;
+	border-color: transparent;
+	border-style: groove;
+	color: #fcf8f8;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.8) 3px 3px;
+	margin: 10;
+    padding: 1;
+	font-size: 17px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: rgba(138, 138, 138, 0.9);
+	border-radius: 5px;
+	border-color: #fff;
+	opacity: 100;
+	border-style: groove;
+	border-radius: 5px;
+	color:#fff; transition-duration:.0s;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+}
