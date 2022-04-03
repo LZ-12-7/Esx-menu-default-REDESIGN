@@ -14,6 +14,8 @@ The esx dialog menu is in another repository in case you want it.
 
 [Previews]
 
-IMG:![image](https://user-images.githubusercontent.com/94126308/161407061-6f5dc788-e851-4720-9081-58e9a35d4cfb.png)
+IMG:
+
+![image](https://user-images.githubusercontent.com/94126308/161407061-6f5dc788-e851-4720-9081-58e9a35d4cfb.png)
 
 VIDEO: https://streamable.com/8ir9cf
